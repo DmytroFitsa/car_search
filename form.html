@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Car_bazar</title>
+</head>
+<body>
+    <header>
+        <h1>Форма вибору авто</h1>
+        <nav>
+            <a href="index.html">ГОЛОВНА</a>
+        </nav>
+    </header>
+    <main>
+        <form action="https://formspree.io/mrgldwgr" method="POST">
+        <H4>Заповніть деякі дані для звязку з нами</H4>
+            <label>Ваше імя:
+                <input type="text" name="client-name" placeholder="Ваше імя" required>
+            </label>
+            <br>
+            <label>Номер тел:
+                <input type="text" name="client-tel" placeholder="Тел" required>
+            </label>
+             <br>
+            <label>Е-пошта:
+                <input type="email" name="client-mail" placeholder="E-mail" required>
+            </label>
+            <br>
+            <label>Повідомлення:
+                <br>
+                <textarea name="text"></textarea>
+            </label>
+            <h4>Підбір по параметрах</h4>
+            <label>Тип кузова:
+                <input type="radio" name="Седан" value="sedan">Седан
+                <input type="radio" name="Універсал" value="vagon">Універсал
+                <input type="radio" name="Хетчбек" value="hatchback">Хетчбек
+                <input type="radio" name="Позашляховик" value="suv">Позашляховик
+                <input type="radio" name="Мінівен" value="van">Мінівен
+                <input type="radio" name="Кабріолет" value="cabrio">Кабріолет
+            </label>
+            <br><br>
+             <label>Тип двигуна:
+                <input type="checkbox" name="diesel">Дизель
+                <input type="checkbox" name="petrol">Бензин
+                <input type="checkbox" name="gaz">Газ
+                <input type="checkbox" name="gas/petrol">Газ/Бензин
+            </label>
+            <br><br>
+             <label>Тип КПП:
+                <input type="checkbox" name="mkp">Механіка
+                <input type="checkbox" name="akp">Автомат
+            </label>
+             <br><br>
+             <label>Тип привода:
+                <input type="checkbox" name="front">Передній
+                <input type="checkbox" name="rear">Задній
+                <input type="checkbox" name="4x4">Повний
+            </label>
+            <br><br>
+            <label>Колір
+                <select name="color">
+                    <option value="white">Білий</option>
+                    <option value="black">Чорний</option>
+                    <option value="grey">Сірий</option>
+                    <option value="red">Червоний</option>
+                    <option value="yelloy">Жовтий</option>
+                    <option value="blue">Синій</option>
+                </select>
+            </label>
+            <br><br><br>
+            <input type="submit"></button>
+            <input type="reset"></button>
+        </form>
+    </main>
+</body>
+</html>
